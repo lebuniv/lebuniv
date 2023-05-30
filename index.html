@@ -5,152 +5,29 @@
     <title></title>
   </head>
   <body>
-    <b>Definition Of MetaData:</b><br>
+      What is Social Network Model and how is it represented?
+-	A social network model is a set of actors and the interactions between them.
+-	It is successfully represented as a graph
+o	Actors are nodes and interactions are links
+o	Actors might be connected by different kinds of ties and relations
+Define:
+-	Degree: 
+o	Sum of connections (sum of the weights of connections in case of weighted graphs) from or to an actor
+-	Closeness centrality: 
+o	Distance of one actor to all others in the network
+-	Betweenness centrality: 
+o	The number of shortest paths that passes through an actor
+o	Number that represents how frequently an actor is between other actors’ geodesic paths
+-	Eigen vector: 
+o	Measures how importance of an actor
+-	Out-degree
+o	Sum of connections from an actor to others
+-	In-degree
+o	Sum of connections to an actor
+-	HITS:
+o	A hit is a metric used in website analytics. A hit is often a request made to a website for a particular file to be downloaded from the server. When a user clicks on a web page, regardless of the number of files downloaded, it is called a visit.
 
-‐ Metadata is Data about data. In other words ,it is a set of data that describes and gives
-information about other data.<br>
-‐ Metadata is a structured information that describe, explains, locates or otherwise make it easier
-to retrieve , use and manage an information resource.(Provide info about 1 or more aspects).<br>
 
-<b>Why do we need metadata?</b><br>
-Metadata is created and collected because it enables and improves use of that data. Metadata ensures<br>
-that we will be able find data, use data, and preserve and re‐use data in the future.<br>
-‐To enable discovery of your digitized material<br>
-‐To help you organize your digitized material<br>
-‐To support archiving and preservation <br><br>
 
-<b>Purposes of Metadata:</b><br>
-‐ Resource Description<br>
-‐ Information retrieval and dissemination<br>
-‐ Preservation and retention<br>
-‐ Ownership and rights management<br>
-‐ Managing users and agents<br><br>
-
-<b>Functions of Metadata:</b><br>
-‐ Resource discovery<br>
-‐ Organizing e‐resources<br>
-‐ Facilitating interoperability<br>
-‐ Digital Identification<br>
-‐ Archiving and preservation<br><br>
-
-<b>Types of Metadata:</b><br>
-1) Descriptive metadata :is used for discovery and identification, as information to search and locate an<br>
-object, such as title, author, subjects, keywords, publisher.<br>
-2)Structural metadata :describes how the components of an object are organized. An example of<br>
-structural metadata would be how pages are ordered to form chapters of a book.<br>
-3) Administrative metadata :gives information to help manage the source. Administrative metadata<br>
-refers to the technical information, including file type.<br><br>
-
-Subsets:<br>
-Rights management metadata: deals with intellectual property rights<br>
-Preservation metadata: which contains information needed to archive and preserve a resource.<br><br>
-    
-<b>Metadata standards / schema:</b><br>
-1)Dublin Core<br>
-2) MODS (Metadata Object Description Schema): can be used on its own or as a complement to other<br>
-metadata formats.<br>
-3) Darwin Core: This metadata schema is for describing biological specimens<br>
-4)Ecological Metadata Language (EML):This metadata schema is for ecological data.<br><br>
-
-What is Dublin Core?<br>
-‐The Dublin Core Schema is a small set of vocabulary terms that can be used to describe web resources<br>
-(video, images, web pages, etc.), as well as physical resources such as books or CDs, and objects like art<br>
-works.<br>
-‐Dublin Core is an initiative to create a digital "library card catalogue" for the Web.<br>
-‐Dublin Core is made up of 15 metadata (data that describes data) elements that offer expanded<br>
-cataloguing information and improved document indexing for search engine programs.<br><br>
-
-<b>Dublin Core Elements: Simple elements:</b><br>
-1‐Identifier<br>
-2‐Creator<br>
-3‐Subject<br>
-4‐Description<br>
-5‐Publisher<br>
-6‐Contributor<br>
-7‐Date<br>
-8‐Type<br>
-9‐Format<br>
-10‐Identifier<br>
-11‐Source<br>
-12‐Language<br>
-13‐Relation<br>
-14‐Coverage<br>
-15‐Rights<br><br>
-
-<b>Qualified elements:</b><br>
-1‐Audience<br>
-2‐Provenance<br>
-3‐Rights Holder<br>
-Simple Qualified<br><br>
-
-Simple Dublin Core is Dublin Core metadata that<br>
-uses no qualifiers only the main 15 elements of<br>
-the Dublin Core .<br><br>
-
-Metadata Element Set are expressed as simple<br>
-attribute‐value pairs without any "qualifiers" to<br>
-provide more detailed information about a<br>
-resource.<br><br>
-
-Qualified Dublin Core employs additional<br>
-qualifiers to further refine the<br>
-meaning of a resource.<br><br>
-
-<b>Metadata and SEO:</b><br>
-1)<b>Meta Tags:</b><br>
-‐Meta tags are metadata, but not all metadata are meta tags. Some elements commonly called “tags”<br>
-are actually attributes of a tag.<br>
-‐The most obvious metadata for SEO are meta tags. A meta tag begin with “meta” followed by name<br>
-attributes. When you type a meta description into your CMS, it automatically generates the meta tag in<br>
-the correct format.<br>
-2)Description: ‐Sometimes used by search engines as the descriptive black text in the search result<br>
-listing.<br>
-‐meta descriptions can help increase customer clicks in search results, but meta descriptions will not<br>
-impact rankings.<br>
-‐The description attribute for the meta tag explains the page content in a summary that needs to be at<br>
-least 11 words long to display, and will truncate at around 160 characters.<br>
-3)Keywords: ‐ Meta keywords ceased to impact rankings in 2009.<br>
-‐Bing may still use them, but only as a spam signal. many irrelevant keywords in this attribute may harm<br>
-rankings in Bing.<br>
-‐ Do not use the keyword attribute unless your internal site search engine requires it.<br>
-4)Robots: ‐ meta robots attribute tells search engines whether to index or pass link authority through<br>
-the links on a page.<br>
-‐The four attributes are “index,” “noindex,” “follow,” “nofollow.”<br>
-‐Search engines by default index content and follow links.<br>
-5)Title Tags: ‐ Their format is simple, and as with meta tags, your CMS will generate the tag for you from<br>
-the title or headline you enter.<br>
-‐The best title tags begin with the most relevant keywords, product name, or article name, and end with<br>
-the name of the site<br>
-‐Stay within 60 characters<br>
-6)Image tags: ‐ Search engines primarily use image tags to identify the URLs for the images to be shown<br>
-on the page. Other attributes can specify the height and width of the image.<br>
-‐Alt is the most important image attribute for SEO, though its relative importance to other SEO factors is<br>
-small.<br><br>
-
-<b>Difference between metadata and hashtag:</b><br>
-Metadata Hashtag<br>
-metadata is data that describes other data,<br>
-serving as an informative label<br>
-‐hashtag is (internet) a metadata tag, signaled by<br>
-a preceding hash sign (#)<br>
-‐ used to label content.<br><br>
-
-<b>XML a metadata Language:</b><br>
-‐ XML is a meta‐language , a language for defining other languages such as HTML.<br>
-‐ I can define a language for expressing customers and all its related objects for a CRM application.<br>
-‐For a given object I define a set of metadata or tags , Then use them to find the object easier.<br>
-What is XML?<br>
-‐XML stands for eXtensible Markup Language.<br>
-‐A markup language is used to provide information about a document.<br>
-‐Tags are added to the document to provide the extra information.<br>
-‐HTML tags tell a browser how to display the document.<br>
-‐XML tags give a reader some idea what some of the data means.<br>
-What is XML used for?<br>
-‐XML documents are used to transfer data from one place to another often over the Internet.<br>
-‐XML subsets are designed for particular applications. One is RSS which is used to send breaking news<br>
-bulletins from one web site to another.<br>
-‐ A number of fields have their own subsets. These include chemistry, mathematics, and books<br>
-publishing.<br>
-‐Most of these subsets are registered with the W3Consortium and are available for anyone’s use.<br>
   </body>
 </html>
