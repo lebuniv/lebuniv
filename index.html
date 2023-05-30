@@ -1,35 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Social Network Model Definitions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    h2 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    
+    p {
+      margin-bottom: 10px;
+    }
+    
+    ul {
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Social Network Model Definitions</h1>
+  <h1>Social Network Model and Representation</h1>
   
   <h2>Social Network Model</h2>
-  <p>A social network model is a set of actors and the interactions between them. It is represented as a graph, where actors are nodes and interactions are links. Actors can be connected by various types of ties and relations.</p>
-
-  <h2>Definitions</h2>
-
-  <h3>Degree</h3>
-  <p>Degree is the sum of connections (or sum of the weights of connections in case of weighted graphs) from or to an actor.</p>
-
-  <h3>Closeness Centrality</h3>
-  <p>Closeness centrality is the distance of one actor to all others in the network. It measures how easily an actor can reach all other actors.</p>
-
-  <h3>Betweenness Centrality</h3>
-  <p>Betweenness centrality is the number of shortest paths that pass through an actor. It represents how frequently an actor is between other actors' geodesic paths.</p>
-
-  <h3>Eigenvector</h3>
-  <p>Eigenvector measures the importance of an actor in the network. It takes into account both the actor's own connections and the connections of their neighboring actors.</p>
-
-  <h3>Out-degree</h3>
-  <p>Out-degree is the sum of connections from an actor to others in the network.</p>
-
-  <h3>In-degree</h3>
-  <p>In-degree is the sum of connections to an actor from others in the network.</p>
-
-  <h3>HITS</h3>
-  <p>HITS (Hyperlink-Induced Topic Search) is a metric used in website analytics. A hit refers to a request made to a website for a particular file to be downloaded from the server. When a user clicks on a web page, regardless of the number of files downloaded, it is called a visit.</p>
+  <p>A social network model is a set of actors and the interactions between them. It is successfully represented as a graph, where actors are nodes and interactions are links. Actors can be connected by different kinds of ties and relations.</p>
+  
+  <h2>Key Concepts and Measures</h2>
+  <ul>
+    <li><strong>Degree:</strong> Sum of connections (sum of the weights of connections in case of weighted graphs) from or to an actor.</li>
+    <li><strong>Out-degree:</strong> Sum of connections from an actor to others.</li>
+    <li><strong>In-degree:</strong> Sum of connections to an actor.</li>
+    <li><strong>Closeness centrality:</strong> Distance of one actor to all others in the network.</li>
+    <li><strong>Betweenness centrality:</strong> The number of shortest paths that pass through an actor, representing how frequently an actor is between other actors' geodesic paths.</li>
+    <li><strong>Eigenvector:</strong> Measures the importance of an actor.</li>
+    <li><strong>Cliques:</strong> Sub-set of actors more closely tied to each other than to actors who are not part of the subset.</li>
+  </ul>
+  
+  <h2>Additional Network Metrics</h2>
+  <ul>
+    <li><strong>Size:</strong> Number of nodes in the network.</li>
+    <li><strong>HITS:</strong> A metric used in website analytics to measure hits or requests made to a website for file downloads.</li>
+  </ul>
+  
+  <h1>Usage of Social Networks</h1>
+  
+  <h2>Profile-based</h2>
+  <p>Primarily organized around members' profile pages, containing information about an individual member, including their picture and details of interests, likes, and dislikes. Examples include Bebo, Facebook, and MySpace.</p>
+  
+  <h2>Content-based</h2>
+  <p>In these services, user profiles play a secondary role to the posting of content. Examples include YouTube for video sharing, Last.fm for music monitoring and representation, and Flickr for photo sharing.</p>
+  
+  <h2>Micro-blogging</h2>
+  <p>Allows users to publish short messages publicly or within contact groups. Examples include Twitter and Jaiku.</p>
+  
+  <h2>White-label</h2>
+  <p>Offer some group-building functionality, allowing users to form mini-communities within sites. Examples include PeopleAggregator, Ning, and Colexn. However, they seem to be losing popularity.</p>
+  
+  <h2>Multi-user Virtual Environments</h2>
+  <p>Environments that allow users to interact with each other's avatars. Examples include Second Life and World of Warcraft.</p>
+  
+  <h2>Mobile and Social Search</h2>
+  <p>Mobile and social search services also contribute to the usage of social networks.</p>
+  
+  <h2>Additional Information</h2>
+  <ul>
+    <li><strong>Social Relation:</strong> Anything that links two actors in a social network.</li>
+    <li><strong>Social Network Analysis (SNA):</strong> Powerful analysis based on math/graph theory foundations.</li>
+    <li><strong>Walk:</strong> A sequence of actors and relations that begins and ends with actors.</li>
+    <li><strong>Geodesic Distance:</strong> The number of relations in the shortest possible walk from one actor to another.</li>
+    <li><strong>Maximum Flow:</strong> The amount of different actors in the neighborhood of a source that lead to pathways to a target.</li>
+    <li><strong>Social Networking vs. Social Networks:</strong> Social networking refers to the implementation of social networks in the digital world or media.</li>
+    <li><strong>Social Roles:</strong> Defined by regularities in the patterns of relations among actors.</li>
+    <li><strong>Density:</strong> The number of ties that are present compared to the total number of ties possible in a social network.</li>
+  </ul>
 </body>
 </html>
